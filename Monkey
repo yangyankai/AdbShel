@@ -1,0 +1,14 @@
+monkey 测试·
+
+进入shell命令
+adb shell
+
+查看模拟器或者真机中安卓的包名
+ls data/data
+
+开始测试500次
+#monkey -p com.android.calculator2 -v 500
+
+
+
+
