@@ -1,0 +1,7 @@
+#当有多个设备，选择设备
+adb devices
+List of devices attached
+emulator-5554   device
+emulator-5556   device
+
+adb -s emulator-5554 shell
